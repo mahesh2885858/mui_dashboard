@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
     return (
-        <div>This is first Branch</div>
+        <div>This is Home in first Branch</div>
     )
 }
 
