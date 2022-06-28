@@ -1,19 +1,20 @@
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
+import Header from './components/Header/Header';
+import Sidebar from './components/Navigation/Sidebar/Sidebar';
 import { Route, Routes } from 'react-router';
 import Home from './pages/Home/Home';
+import { HomeMaxRounded } from "@mui/icons-material"
 function App() {
 
   return (
-    <Routes>
-      <Route path='/' element={<Home />} />
+    <>
+      <Header />
+      <Sidebar />
+      <HomeMaxRounded />
+      <Routes>
+        <Route path='/' element={<Home />} />
 
-    </Routes>
+      </Routes>
+    </>
   )
 }
 
