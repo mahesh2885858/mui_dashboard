@@ -1,7 +1,7 @@
 
 const Sidebar = () => {
     return (
-        <div>Sidebar</div>
+        <div>Sidebar with First branch </div>
     )
 }
 
